@@ -22,7 +22,7 @@ import { NavbarComponent } from './navbar/navbar.component';
         clientId:"70f93263-c0de-40b4-83f8-16b15ca7b3f1", // Application Id of Application registered in B2C
         authority:"https://georgepatrascu.b2clogin.com/georgepatrascu.onmicrosoft.com/B2C_1_azurepoc1auth", //signup-signin userflow
         validateAuthority:false,
-        redirectUri:"http://localhost:4200/"
+        redirectUri:window.location.href
       },
       cache:{
         cacheLocation:"sessionStorage",
